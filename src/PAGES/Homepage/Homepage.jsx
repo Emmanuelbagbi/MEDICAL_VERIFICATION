@@ -1,5 +1,4 @@
 import  './Homepage.css'
-import Navbar from '../../COMPONENTS/Navbar/Navbar'
 import { useState } from "react";
 import HealthcareStats from '../../COMPONENTS/counter/Counter'
 import { BiChevronDown, BiChevronUp } from 'react-icons/bi';
@@ -45,7 +44,7 @@ function Homepage() {
   return (
     <>
           <section className='homepage'>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
         
         <div className="advert">
             <img src="/src/assets/Images/patents.png"/>
