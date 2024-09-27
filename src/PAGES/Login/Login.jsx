@@ -51,19 +51,6 @@ function Login() {
             <div className="contact-container3">
                 <div className="contactinfo4">
                     <div className="Namediv3">
-                    <div className="signup-group">
-                        <label>First Name</label>
-                        <input
-                        type="text"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        placeholder="First Name"
-                        required
-                        />
-                    </div>
-                    </div>
-                    <div className="Namediv3">
                     <div className="signup-group1">
                         <label>Email</label>
                         <input
