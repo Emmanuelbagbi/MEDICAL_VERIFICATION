@@ -3,6 +3,7 @@ import { useState } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+import signupImage from '/src/assets/Images/banner_img (2).png'
 // import image from '../../assets/Images/banner_img (2).png'
 
 function Signup() {
@@ -32,7 +33,7 @@ function Signup() {
             <p>Kindly Signup for better Experience</p>
         </div>
         <div className='sign-up-imagediv'>
-            <img src="/src/assets/Images/banner_img (2).png" />
+            <img src={signupImage} />
         </div>
     </section>
 
