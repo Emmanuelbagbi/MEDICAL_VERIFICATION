@@ -45,11 +45,10 @@ function Signup() {
                         <label>Full Name</label>
                         <input
                         type="name"
-                        name="fullname"
+                        name="name"
                         value={formData.name}
                         onChange={handleInputChange}
                         placeholder="FullName"
-                        className='fullname-input'
                         required
                         />
                     </div>
