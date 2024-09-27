@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Footer from './COMPONENTS/Footer/Footer'
+import Homepage from './PAGES/Homepage/Homepage'
+import Navbar from './COMPONENTS/Navbar/Navbar'
+import ScrollTop from './COMPONENTS/ScrollTop'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Contact from './PAGES/Contact/Contact'
+import VerifyDrugs from './PAGES/Verify_Drugs/VerifyDrugs'
+import Signup from './PAGES/SignUp/Signup'
+import Login from './PAGES/Login/Login'
+import About from './PAGES/About/about'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+       {/* <Navbar/>
+       <About/>
+       <Footer/> */}
+         <Router>
+        <Navbar/>
+        <ScrollTop/>
+        <Routes>
+        <Route path='/' index element={<Homepage/>}/> 
+        <Route path='/Signup' index element={<Signup/>}/>
+        <Route path='/Login' index element={<Login/>}/>
+        <Route path='/Contact' index element={<Contact/>}/>
+        <Route path='/VerifyDrugs' index element={<VerifyDrugs/>}/>  
+        <Route path='/' index element={<Homepage/>}/>  
+        <Route path='/Contact' index element={<Contact/>}/> 
+        <Route path='/About' index element={<About/>}/>
+        </Routes>
+        <Footer/>
+      </Router>
     </>
+
   )
 }
 
