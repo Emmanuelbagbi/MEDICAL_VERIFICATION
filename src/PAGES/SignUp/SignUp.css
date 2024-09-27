@@ -117,7 +117,6 @@
     width: 50%;
     height: 100px;
     display: flex;
-    gap: 6%;
     flex-direction: column;
     /* border: 1px solid black; */
 }
@@ -204,4 +203,7 @@
 .signup-last .bi-person-fill-check{
     font-size: 20px;
     font-family: "Poppins", sans-serif;
+}
+.fullname-input{
+    width: 100%;
 }
