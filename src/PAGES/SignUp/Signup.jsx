@@ -1,9 +1,9 @@
 import  './SignUp.css'
 import { useState } from "react";
-import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+// import image from '../../assets/Images/banner_img (2).png'
 
 function Signup() {
     const [formData, setFormData] = useState({
