@@ -1,7 +1,5 @@
 import  './Login.css'
 import { useState } from "react";
-import DatePicker from "react-datepicker";
-import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
@@ -19,11 +17,7 @@ function Login() {
         preferredTime: "",
       });
     
-      const reasonOptions = [
-        { value: "Nigeria", label: "Nigeria" },
-        { value: "America", label: "America" },
-        { value: "Australia", label: "Australia" },
-      ];
+      
     
       const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -31,9 +25,7 @@ function Login() {
       };
     
     
-      const handleSelectChange = (option) => {
-        setFormData({ ...formData, reasonForVisit: option });
-      };
+      
     
       const handleSubmit = (e) => {
         e.preventDefault();
