@@ -62,18 +62,6 @@ function Login() {
                         required
                         />
                     </div>
-
-                    <div className="signup-group">
-                        <label>Last Name</label>
-                        <input
-                        type="text"
-                        name="lastname"
-                        value={formData.lastname}
-                        onChange={handleInputChange}
-                        placeholder="Last Name"
-                        required
-                        />
-                    </div>
                     </div>
                     <div className="Namediv3">
                     <div className="signup-group1">
