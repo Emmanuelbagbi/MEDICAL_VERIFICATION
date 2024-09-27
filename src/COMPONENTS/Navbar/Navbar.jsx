@@ -59,16 +59,16 @@ function Navbar() {
         <ul className='ul1'>
           <li className='li1'>  <Link to="/" className='a1'>Home</Link></li>
           <li className='li1'><Link to="/About" className='a1'>About</Link></li>
-          <li className='li1'><Link to="/Verify_Products" className='a1'>Verify Products</Link></li>
+          <li className='li1'><Link to="/VerifyDrugs" className='a1'>Verify Products</Link></li>
           <li className='li1'><Link to="/Contact" className='a1'>Contact</Link></li>
           <li className='li1'><Link to="/Site Map" className='a1'>Site Map</Link></li>
         </ul>
       </nav>
 
       <div className='auto'>
-      <button className='register'>
+      <Link to='/Signup' className='a1'><button className='register'>
         Register
-      </button>
+      </button></Link>
 
      <div className="search-bar">
      <div className="hamburger-menu">

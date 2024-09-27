@@ -1,48 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: none;
 }
 
-.contact{
+.signup{
     width: 100%;
     height: 598px;
     /* border: 1px solid black; */
-    background-image: url(/src/assets/images/banner_bg.svg);
-    background-size: cover;
+    background-image: url(/src/assets/Images/hero_bg1.jpeg);
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    /* background-color: rgba(0, 0, 0, 0); */
+    background-position: center;
+    /* background-color: rgba(0, 0, 0, 0.185); */
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 8%;
-    background-color: rgba(0, 0, 0, 0.119);
-    background-blend-mode: darken;
+    gap: 10%;
 }
-.contact-image{
-    width: 40%;
-    height: 598px;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: end;
-    justify-content: end;
-}
-.contact-image img{
-    max-width: 100%;
-}
-.contactHeader{
+.Signup-title{
     width: 45%;
-    height: 120px;
+    height: 150px;
     /* border: 1px solid black; */
+    padding-left: 55px;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 10%;
 }
-.contactHeader h1{
+.Signup-title h2{
     font-family: "Figtree", sans-serif;
     font-weight: 700;
     line-height: 1.2em;
@@ -50,20 +39,42 @@
     color: #274760;
     font-size: 56px;
 }
-.contactHeader p{
-    font-size: 18px;
+.Signup-title p{
+    font-size: 20px;
+    line-height: 1.5em;
     color: #274760;
 }
-.contactform{
+.signup img{
+    border: 0;
+    max-width: 130%;
+    height: auto;
+    vertical-align: end;
+}
+.sign-up-imagediv{
+    width: 40%;
+    height: 610px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.signup-form{
+    width: 100%;
+    height: 520px;
+    border: 1px solid black;
+}
+
+
+.contactform3{
     width: 100%;
     height: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.contact-container{
+.contact-container3{
     width: 75%;
-    height: 570px;
+    height: 620px;
     /* border: 1px solid black; */
     background-color: white;
     border-radius: 20px;
@@ -72,15 +83,15 @@
     align-items: center;
     justify-content: center;
 }
-.contactinfo{
+.contactinfo3{
     width: 80%;
-    height: 500px;
+    height: 560px;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     gap: 2%;
 }
-.Namediv{
+.Namediv3{
     width: 100%;
     height: 100px;
     /* border: 1px solid black; */
@@ -90,9 +101,9 @@
     gap: 4%;
 }
 
-.form-group input,
-.form-group .react-datepicker-wrapper,
-.form-group .react-select__control {
+.signup-group input,
+.signup-group .react-datepicker-wrapper,
+.signup-group .react-select__control {
   width: 100%;
   height: 65px;
   padding: 10px;
@@ -102,7 +113,7 @@
   border: 1px solid #274760;
   outline: none;
 }
-.form-group{
+.signup-group{
     width: 50%;
     height: 100px;
     display: flex;
@@ -110,7 +121,7 @@
     flex-direction: column;
     /* border: 1px solid black; */
 }
-.form-group2{
+.signup-group2{
     width: 50%;
     height: 100px;
     display: flex;
@@ -118,7 +129,7 @@
     flex-direction: column;
     /* border: 1px solid black; */
 }
-.form-group1{
+.signup-group1{
     width: 100%;
     height: 100px;
     display: flex;
@@ -126,7 +137,7 @@
     flex-direction: column;
     /* border: 1px solid black; */
 }
-.input1 {
+.input3 {
   width: 100%;
   height: 65px;
   padding: 10px;
@@ -136,7 +147,7 @@
   border: 1px solid #274760;
   outline: none;
 }
-.select{
+.select3{
     width: 100%;
   height: 65px;
   padding: 10px;
@@ -157,7 +168,7 @@
     border: 1px solid #274760;
     outline: none;
 }
-.form-group3{
+.signup-group3{
     width: 50%;
     height: 100px;
     display: flex;
@@ -179,103 +190,18 @@
     border: none;
     cursor: pointer;
 }
-.find{
+.signup-last{
     width: 100%;
-    height: 1000px;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.findus{
-    width: 90%;
-    height: 800px;
-    /* border: 1px solid black; */
-}
-.find-title{
-    width: 100%;
-    height: 100px;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-}
-.findh1{
-    font-family: "Figtree", sans-serif;
-    color: #274760;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 1.2em;
-    clear: both;
-}
-.findicons{
-    width: 100%;
-    height: 150px;
+    height: 70px;
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-
-}
-.icon-container{
-    width: 32%;
-    height: 110px;
-    border: 1px solid #307bc4;
-    display: flex;
-    align-items: center;
-    border-radius: 20px;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    cursor: pointer;
-}
-.icon-container:hover{
-    background-color: #4283c4b3;
-}
-.icon-cont{
-    width: 30%;
-    height: 80px;
-    /* border: 1px solid black; */
-    background-image: url(/src/assets/contact/icon_1.svg);
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.icon-details{
-    width: 60%;
-    height: 70px;
-    /* border: 1px solid black; */
-    gap: 9%;
-    display: flex;
-    flex-direction: column;
+    font-size: 19px;
     color: #274760;
 }
-.icon-details h3{
-    font-size: 18px;
-    font-weight: 700;
-    color: #274760;
-}
-.icon-cont1{
-    width: 30%;
-    height: 80px;
-    /* border: 1px solid black; */
-    background-image: url(/src/assets/contact/icon_2.svg);
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.icon-cont2{
-    width: 30%;
-    height: 80px;
-    /* border: 1px solid black; */
-    background-image: url(/src/assets/contact/icon_3.svg);
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.geolocation-container{
-    width: 100%;
-    height: 500px;
-    border: 1px solid black;
-    border-radius: 20px;
+.signup-last .bi-person-fill-check{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
 }

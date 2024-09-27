@@ -7,4 +7,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+  overflow-x: none;
+  -webkit-font-smoothing: antialiased;
 }

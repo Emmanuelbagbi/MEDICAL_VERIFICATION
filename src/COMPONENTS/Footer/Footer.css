@@ -13,7 +13,7 @@
     background-color: #307bc4;
     flex-direction: column;
     margin-top: 100px;
-    overflow: scroll;
+    overflow-x: none;
 }
 .column1{
     width: 89%;
