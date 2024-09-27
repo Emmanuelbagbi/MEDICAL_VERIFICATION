@@ -2,6 +2,7 @@ import  './Homepage.css'
 import { useState } from "react";
 import HealthcareStats from '../../COMPONENTS/counter/Counter'
 import { BiChevronDown, BiChevronUp } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 
 
 
@@ -250,7 +251,7 @@ function Homepage() {
                 where we ensure the authenticity
                 of your pharmaceutical purchases.</span>
 
-            <button className='Register'>Verify Now</button>
+            <Link to='/VerifyDrugs' className='a1'><button className='Register'>Verify Now</button></Link>
         </div>
         </div>
     </section>

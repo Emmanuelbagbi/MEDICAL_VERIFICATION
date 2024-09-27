@@ -57,7 +57,7 @@ function Login() {
     <form onSubmit={handleSubmit} >
         <section className='contactform3'>
             <div className="contact-container3">
-                <div className="contactinfo3">
+                <div className="contactinfo4">
                     <div className="Namediv3">
                     <div className="signup-group">
                         <label>First Name</label>
@@ -96,30 +96,7 @@ function Login() {
                         />
                     </div>
                     </div>
-                    <div className="Namediv3">
-                    <div className="signup-group3">
-                        <label>Country</label>
-                        <Select
-                        className='select3'
-                        name="reasonForVisit"
-                        options={reasonOptions}
-                        value={formData.reasonForVisit}
-                        onChange={handleSelectChange}
-                        />
-                    </div>
-
-                    <div className="signup-group">
-                        <label>Phone Number</label>
-                        <input
-                        type="tel"
-                        name="phoneNumber"
-                        value={formData.phoneNumber}
-                        onChange={handleInputChange}
-                        placeholder="(123) 456 - 789"
-                        required
-                        />
-                    </div>
-                    </div>
+                
                     <div className="Namediv3">
                     <div className="signup-group1">
                         <label>Password</label>
@@ -134,7 +111,7 @@ function Login() {
                     </div>
                     </div>
                     <button type="submit" className="submit-button">
-                        Submit <BiArrowToRight />
+                        Login <BiArrowToRight />
                     </button>
 
                     <div className="signup-last">

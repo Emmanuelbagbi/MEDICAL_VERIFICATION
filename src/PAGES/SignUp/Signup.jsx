@@ -134,7 +134,7 @@ function Signup() {
                     </div>
                     </div>
                     <button type="submit" className="submit-button">
-                        Submit <BiArrowToRight />
+                        Signup <BiArrowToRight />
                     </button>
 
                     <div className="signup-last">
