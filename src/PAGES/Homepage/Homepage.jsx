@@ -3,7 +3,14 @@ import { useState } from "react";
 import HealthcareStats from '../../COMPONENTS/counter/Counter'
 import { BiChevronDown, BiChevronUp } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-
+import  Adimage from '/src/assets/Images/patents.png'
+import Adimage1 from '/src/assets/Images/about.jpg'
+import Adimage3 from '/src/assets/home_2/department_icon_1.svg'
+import Adimage4 from '/src/assets/home_2/department_icon_2.svg'
+import Adimage5 from '/src/assets/home_2/department_icon_3.svg'
+import Adimage6 from '/src/assets/home_2/department_icon_4.svg'
+import Adimage7 from '/src/assets/home_2/department_icon_5.svg'
+import Adimage8 from '/src/assets/home_2/department_icon_6.svg'
 
 
 function Homepage() {
@@ -48,7 +55,7 @@ function Homepage() {
         {/* <Navbar></Navbar> */}
         
         <div className="advert">
-            <img src="/src/assets/Images/patents.png"/>
+            <img src={Adimage}/>
         </div>
         <div className="title">
             <h1>Medical verification, your gateway to genuine. </h1>
@@ -88,7 +95,7 @@ function Homepage() {
                 </span>
             </div>
             <div className="row2">
-                <img src="/src/assets/Images/about.jpg"/>
+                <img src={Adimage1}/>
             </div>
         </div>
     </section>
@@ -104,7 +111,7 @@ function Homepage() {
         <div className="wrp-card">
             <div className="content-card">
                 <div className="icon">
-                    <img src="/src/assets/home_2/department_icon_1.svg"/>
+                    <img src={Adimage3}/>
                 </div>
                 <div className="depart">
                     <h2 className="cs_iconbox_title cs_fs_32 cs_semibold m-0">Emergency Departement</h2>
@@ -113,7 +120,7 @@ function Homepage() {
 
             <div className="content-card">
                 <div className="icon">
-                    <img src="/src/assets/home_2/department_icon_2.svg"/>
+                    <img src={Adimage4}/>
                 </div>
                 <div className="depart">
                     <h2 className="cs_iconbox_title cs_fs_32 cs_semibold m-0">Pediatric Departement</h2>
@@ -122,7 +129,7 @@ function Homepage() {
 
             <div className="content-card">
                 <div className="icon">
-                    <img src="/src/assets/home_2/department_icon_3.svg"/>
+                    <img src={Adimage5}/>
                 </div>
                 <div className="depart">
                     <h2 className="cs_iconbox_title cs_fs_32 cs_semibold m-0">Obstetrics and Gynecology Departement</h2>
@@ -131,7 +138,7 @@ function Homepage() {
 
             <div className="content-card">
                 <div className="icon">
-                    <img src="/src/assets/home_2/department_icon_4.svg"/>
+                    <img src={Adimage6}/>
                 </div>
                 <div className="depart">
                     <h2 className="cs_iconbox_title cs_fs_32 cs_semibold m-0">Cardiology Departement</h2>
@@ -140,7 +147,7 @@ function Homepage() {
 
             <div className="content-card">
                 <div className="icon">
-                    <img src="/src/assets/home_2/department_icon_5.svg"/>
+                    <img src={Adimage7}/>
                 </div>
                 <div className="depart">
                     <h2 className="cs_iconbox_title cs_fs_32 cs_semibold m-0">Neurology Departement</h2>
@@ -149,7 +156,7 @@ function Homepage() {
 
             <div className="content-card">
                 <div className="icon">
-                    <img src="/src/assets/home_2/department_icon_6.svg"/>
+                    <img src={Adimage8}/>
                 </div>
                 <div className="depart">
                     <h2 className="cs_iconbox_title cs_fs_32 cs_semibold m-0">Psychiatry Departement</h2>
