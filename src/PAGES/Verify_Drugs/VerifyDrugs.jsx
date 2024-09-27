@@ -8,6 +8,7 @@ import VerifyImage1 from '/src/assets/Images/hero_img.png'
 import VerifyImage2 from '/src/assets/contact/icon_1.svg'
 import VerifyImage3 from '/src/assets/home_1/ambulance.svg'
 import VerifyImage4 from '/src/assets/contact/icon_3.svg'
+import VerifyImage5 from '/src/assets/Images/appointment.jpeg'
 
 
 function VerifyDrugs() {
@@ -189,7 +190,7 @@ function VerifyDrugs() {
                 </div>
 
                 <div className="verifyimage">
-                  <img src="/src/assets/Images/appointment.jpeg" alt="" />
+                  <img src={VerifyImage5} alt="" />
                 </div>
         </div>
       </div>
