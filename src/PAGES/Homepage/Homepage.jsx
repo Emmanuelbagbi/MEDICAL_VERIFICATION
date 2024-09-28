@@ -169,7 +169,7 @@ function Homepage() {
             <div className="attentions">
                 <div className="health">
                     <span><h2 className='dont'>Don’t Let Your Health Take a Backseat!</h2></span>
-                    <span><p className="m-0 cs_white_color cs_fs_20 cs_medium">Schedule an appointment with one of our <br/>experienced medical  professionals today!</p></span>
+                    <span><p className="m-0 cs_white_color cs_fs_18 cs_medium">Schedule an appointment with one of our <br/>experienced medical  professionals today!</p></span>
                 </div>
             </div>
     </section>

@@ -204,8 +204,7 @@ function VerifyDrugs() {
                     <span><p className="m-0 cs_white_color cs_fs_20 cs_medium1">Schedule an appointment with one of our <br/>experienced medical  professionals today!</p></span>
                 </div>
           
-         <div className='ed'>
-         </div>
+         <div className='ed'></div>
       </div>
     </div>
    </>
