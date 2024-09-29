@@ -1,13 +1,14 @@
-import Footer from './COMPONENTS/Footer/Footer'
-import Homepage from './PAGES/Homepage/Homepage'
-import Navbar from './COMPONENTS/Navbar/Navbar'
-import ScrollTop from './components/ScrollTop'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Contact from './PAGES/Contact/Contact'
-import VerifyDrugs from './PAGES/Verify_Drugs/VerifyDrugs'
-import Signup from './PAGES/SignUp/Signup'
-import Login from './PAGES/Login/Login'
-import About from './PAGES/About/about'
+// import Footer from './COMPONENTS/Footer/Footer'
+// import Homepage from './PAGES/Homepage/Homepage'
+// import Navbar from './COMPONENTS/Navbar/Navbar'
+// import ScrollTop from './components/ScrollTop'
+// import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+// import Contact from './PAGES/Contact/Contact'
+// import VerifyDrugs from './PAGES/Verify_Drugs/VerifyDrugs'
+// import Signup from './PAGES/SignUp/Signup'
+// import Login from './PAGES/Login/Login'
+// import About from './PAGES/About/about'
+import ManufacturerDashboard from './PAGES/Admin/Admin'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
        {/* <Navbar/>
        <About/>
        <Footer/> */}
-         <Router>
+         {/* <Router>
         <Navbar/>
         <ScrollTop/>
         <Routes>
@@ -30,7 +31,8 @@ function App() {
         <Route path='/About' index element={<About/>}/>
         </Routes>
         <Footer/>
-      </Router>
+      </Router> */}
+      <ManufacturerDashboard/>
     </>
 
   )
