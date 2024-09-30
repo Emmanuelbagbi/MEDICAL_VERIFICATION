@@ -1,0 +1,42 @@
+  .hero-div{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 10px;
+  }
+  .hero-div h6{
+    font-size: 20px;
+    color: rgb(91,94,99);
+    /* font-weight: 600; */
+  }
+  .hero-div h1{
+    font-size: 45px;
+    color: rgb(34,37,43);
+  }
+  .attention-div{
+    height: 80px;
+    width: 595px;
+    background-color: rgb(250,251,252);
+    /* border: 1px solid gainsboro; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 15px;
+    box-shadow: 0 4px 4px 0 rgba(132, 131, 131, 0.2), 0 2px 2px 0 rgba(120, 119, 119, 0.19) ;
+  }
+  #dark .attention-div{
+    background-color: rgb(34,37,44);
+  }
+  .attention-div img{
+    height: 67px;
+    width: 270px;
+  }
+  .att-text{
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+  }
+  .time-txt{
+    font-size: 14px;
+    color:rgb(140,142,146) ;
+  }

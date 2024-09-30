@@ -1,0 +1,128 @@
+aside{
+    margin-left: 20px;
+    margin-top: 18px;
+    position: sticky;
+    height: 100vh;
+}
+#aside aside{
+    color: rgb(34,37,44);
+}
+.sidebar-inner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 9px;
+    margin-bottom: 23px;
+}
+.sidebar-inner p{
+    font-size: 13px;
+    color: rgb(117, 117, 120);
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid gainsboro;
+    width: 170px;
+}
+.logo-div img{
+    width: 27px;
+    height: 28px;
+}
+.logo-div h2{
+    font-size: 22px;
+}
+#dark .logo-div{
+    gap: 10px;
+}
+#dark .logo-div h2{
+     color: rgb(239, 241, 241);
+}
+.sidebar-inner p{
+    margin-left: 9px;
+    font-size: 12px;
+}
+.sidebar-inner div{
+    /* height: 40px;
+    width: 185px; */
+    /* border: 1px solid gainsboro; */
+    /* border-radius: 5px; */
+    /* display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 0px; */
+}
+.de-inner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+.de-inner div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 0px;
+    height: 45px;
+    width: 185px;
+    font-size: 13px;
+    color: rgb(117, 117, 120);
+}
+#dark .de-inner div{
+    color: rgb(194, 197, 199);
+}
+.active{
+    height: 40px;
+    width: 185px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 9px;
+    margin-top: 4px;
+    font-size: 13px;
+    background-color: rgb(136,187,239);
+    /* margin-right: 10px; */
+}
+#dark .active{
+    background-color:rgb(49,52,61);
+    border: none;
+    color: rgb(194, 197, 199);
+}
+.exit-div{
+    padding-top: 25px;
+    margin-left: 9px;
+    border-top: 1px solid gainsboro;
+    width: 160px;
+}
+.exit-div p{
+    font-size: 12px;
+    color: rgb(117, 117, 120);
+}
+.tommy-div{
+   margin-top: 25px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   font-size: 13px;
+   font-weight: 600;
+   color: rgb(117, 117, 120);
+}
+.tommy-div img{
+    width: 20px;
+    height: 20px;
+}
+#dark .tommy-div{
+    color: rgb(194, 197, 199);
+}
+.exit-box{
+    margin-top: 25px;
+    font-size: 13px;
+    display: flex;
+    gap: 11px;
+    color: rgb(117, 117, 120);
+}
+#dark .exit-box{
+    color: rgb(194, 197, 199);
+}

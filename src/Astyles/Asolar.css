@@ -1,0 +1,69 @@
+ .solar-div{
+    width: 730px;
+    height: 270px;
+    /* border: 1px solid gainsboro; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(250,251,252);
+    box-shadow: 0 4px 4px 0 rgba(132, 131, 131, 0.2), 0 2px 2px 0 rgba(120, 119, 119, 0.19) ;
+ }
+ #dark .solar-div{
+  background-color: rgb(34,37,44);
+ }
+ .gen-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .gen-div p{
+   font-size: 19px;
+   font-weight: 600;
+   color: rgb(62, 63, 65);
+ }
+ .cuurent-div{
+    width: 110px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+ }
+ .con-num{
+   font-size: 40px;
+ }
+ .gene-txt{
+   font-size: 14px;
+   color: rgb(84,86,91);
+   font-weight: 600;
+   white-space: nowrap;
+ }
+ .tg-div{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+ }
+ .chart-first{
+  display: flex;
+  /* align-items: center; */
+ }
+ .chart-box{
+  padding-top: 10px;
+ }
+ .min-max{
+    display: flex;
+    gap: 5px;
+ }
+ .min-max p{
+   font-size: 12px;
+   color: rgb(118, 117, 117);
+ }
+ .green-txt{
+   color: rgb(190,215,183);
+ }
+ .red-txt{
+   color: rgb(255,180,180);
+ }

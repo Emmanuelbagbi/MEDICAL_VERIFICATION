@@ -1,0 +1,11 @@
+.dashboard-div{
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    /* margin-top: 100px; */
+}
+  #dark .sidebar-div{
+    background-color: rgb(34,37,44);
+    width: 270px;
+    /* width: 100%; */
+} 

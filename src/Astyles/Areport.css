@@ -1,0 +1,68 @@
+.report-div{
+    width: 730px;
+    height: 280px;
+    background-color: rgb(250,251,252);
+    /* border: 1px solid gainsboro; */
+    border-radius: 10px;
+    padding: 15px 20px;
+     box-shadow: 0 4px 4px 0 rgba(132, 131, 131, 0.2), 0 2px 2px 0 rgba(120, 119, 119, 0.19) ;
+}
+#dark .report-div{
+    background-color: rgb(34,37,44);
+}
+.last-report{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-report h3{
+    font-size: 19px;
+    color: rgb(62, 63, 65);
+}
+.current-day{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.date-div{
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  margin-top: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgb(239, 235, 235);
+}
+.date-div p{
+    font-size: 13px;
+    color: rgb(150, 147, 147);
+    font-weight: 500;
+}
+.time-div{
+    display: flex;
+    gap: 77px;
+    margin-top: 20px;
+}
+.time-div button{
+    width: 60px;
+    height: 22px;
+    border-radius: 11px;
+    border: none;
+    background-color:rgb(141,183,129);
+    color: white;
+    font-size: 10px;
+}
+.time-div p{
+    font-size: 13px;
+    color: rgb(90, 92, 94);
+    font-weight: 600;
+}
+.download-box{
+    height: 30px;
+    width: 32px;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}

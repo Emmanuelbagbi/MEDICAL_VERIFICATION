@@ -111,7 +111,7 @@ function Login() {
                     </div>
                     </div>
                     <button type="submit" className="submit-button">
-                        Login <BiArrowToRight />
+                       <Link to='/dashboard'>Login <BiArrowToRight /></Link> 
                     </button>
 
                     <div className="signup-last">
