@@ -5,6 +5,7 @@ import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import Geolocation from '../../COMPONENTS/GeoLocation/Location'
+import contactImage1 from '/src/assets/Images/banner_img (1).png'
 
 function Contact() {
 
@@ -48,7 +49,7 @@ function Contact() {
     <form onSubmit={handleSubmit} >
         <section className='contact'>
             <div className="contact-image">
-                <img src="/src/assets/Images/banner_img (1).png" alt="" />
+                <img src={contactImage1} alt="" />
             </div>
             <div className="contactHeader">
                 <h1>Contact Us</h1>

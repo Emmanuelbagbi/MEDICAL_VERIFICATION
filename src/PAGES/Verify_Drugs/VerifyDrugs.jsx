@@ -4,6 +4,11 @@ import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import { useState } from "react";
+import VerifyImage1 from '/src/assets/Images/hero_img.png'
+import VerifyImage2 from '/src/assets/contact/icon_1.svg'
+import VerifyImage3 from '/src/assets/home_1/ambulance.svg'
+import VerifyImage4 from '/src/assets/contact/icon_3.svg'
+import VerifyImage5 from '/src/assets/Images/appointment.jpeg'
 
 
 function VerifyDrugs() {
@@ -56,13 +61,13 @@ function VerifyDrugs() {
         </div>
 
 
-        <img src="/src/assets/Images/hero_img.png" className='verify-img'/>
+        <img src={VerifyImage1} className='verify-img'/>
     </div>
 
     <div className="hotline">
         <div className="hotline1">
           <div className="hotline-icon">
-            <div className="hotdiv"><img src="/src/assets/contact/icon_1.svg" alt="" /></div>
+            <div className="hotdiv"><img src={VerifyImage2} alt="" /></div>
             <div className="contentdiv">
             <h3 className='hth3'>Hotline</h3>
             <p className='htp'>123-456-7890</p>
@@ -70,7 +75,7 @@ function VerifyDrugs() {
           </div>
 
           <div className="hotline-icon">
-            <div className="hotdiv"><img src="/src/assets/home_1/ambulance.svg" alt="" /></div>
+            <div className="hotdiv"><img src={VerifyImage3} alt="" /></div>
             <div className="contentdiv">
             <h3 className='hth3'>Ambulance</h3>
             <p className='htp'>123-456-7890</p>
@@ -78,7 +83,7 @@ function VerifyDrugs() {
           </div>
 
           <div className="hotline-icon">
-            <div className="hotdiv"><img src="/src/assets/contact/icon_3.svg" alt="" /></div>
+            <div className="hotdiv"><img src={VerifyImage4} alt="" /></div>
             <div className="contentdiv">
             <h3 className='hth3'>Location</h3>
             <p className='htp'>NEW YORK, US</p>
@@ -185,7 +190,7 @@ function VerifyDrugs() {
                 </div>
 
                 <div className="verifyimage">
-                  <img src="/src/assets/Images/appointment.jpeg" alt="" />
+                  <img src={VerifyImage5} alt="" />
                 </div>
         </div>
       </div>
@@ -199,8 +204,7 @@ function VerifyDrugs() {
                     <span><p className="m-0 cs_white_color cs_fs_20 cs_medium1">Schedule an appointment with one of our <br/>experienced medical  professionals today!</p></span>
                 </div>
           
-         <div className='ed'>
-         </div>
+         <div className='ed'></div>
       </div>
     </div>
    </>
