@@ -50,7 +50,7 @@ function VerifyDrugs() {
 
 
   return (
-   <>
+   <div className='drugV'>
     <div className="verify-header">
         <div className="verifyheader">
           <h1 className='verifyh1'>Your Partner in Health and Wellness</h1>
@@ -207,7 +207,7 @@ function VerifyDrugs() {
          <div className='ed'></div>
       </div>
     </div>
-   </>
+   </div>
 
   )
 }

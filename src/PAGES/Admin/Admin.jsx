@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../Admin/admin.css";
 import "../../index.css";
 import { FaEdit, FaTrash } from "react-icons/fa";

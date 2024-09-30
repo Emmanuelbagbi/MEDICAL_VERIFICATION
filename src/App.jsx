@@ -8,6 +8,7 @@ import VerifyDrugs from "./PAGES/Verify_Drugs/VerifyDrugs";
 import Signup from "./PAGES/SignUp/Signup";
 import Login from "./PAGES/Login/Login";
 import About from "./PAGES/About/about";
+import Admin from '../src/PAGES/Admin/Admin'
 // import ManufacturerDashboard from './PAGES/Admin/Admin'
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/" index element={<Homepage />} />
           <Route path="/Contact" index element={<Contact />} />
           <Route path="/About" index element={<About />} />
+          <Route path="/Admin" index element={<Admin />} />
         </Routes>
         <Footer />
       </Router>
