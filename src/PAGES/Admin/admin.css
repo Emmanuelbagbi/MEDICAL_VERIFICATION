@@ -1,0 +1,124 @@
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2d3748;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  background-color: #4a5568;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  background-color: #718096;
+}
+
+.sidebar li.active {
+  background-color: #63b3ed;
+}
+
+.content {
+  padding: 20px;
+  width: calc(100% - 250px);
+  background-color: #f7fafc;
+}
+
+.content div {
+  background-color: #edf2f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  margin-top: 20px;
+}
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.section-content .div {
+  width: 250px;
+  height: 150px;
+}
+.heading{
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+.expense-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    margin-top: 50px;    
+  }
+  
+  .expense-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748; /* Text color */
+    margin-bottom: 15px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #4299e1; /* Blue line */
+    padding: 10px;
+  }
+  
+  .expense-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expense-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2d3748;
+  }
+  
+  .expense-amount {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-top: 5px;
+  }
+  
+  .expense-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-icon {
+    color: #4299e1; /* Blue color */
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    color: #e53e3e; /* Red color */
+    cursor: pointer;
+  }
+  

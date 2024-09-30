@@ -81,9 +81,9 @@ function Signup() {
                         />
                     </div>
                     </div>
-                    <button type="submit" className="submit-button">
+                   <Link to='/Admin'> <button type="submit" className="submit-button">
                         Signup <BiArrowToRight />
-                    </button>
+                    </button></Link>
 
                     <div className="signup-last">
                         <Link to='/Login'><span>

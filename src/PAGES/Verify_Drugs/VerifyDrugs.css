@@ -6,12 +6,18 @@
     box-sizing: border-box;
     overflow-x: none;
 }
+.drugV{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: none;
+}
 .verify-header{
     width: 100%;
     height: 733px;
     /* border: 1px solid black; */
     background-image: url(/src/assets/Images/hero_bg1.jpeg);
-    background-size: 104%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     background-position: center;
@@ -778,5 +784,174 @@
         align-items: center;
         justify-content: center;
         gap: 5%;
+    }
+}
+
+@media screen and (max-width: 1183px) {
+    .verify-header{
+        width: 100%;
+        height: 733px;
+        /* border: 1px solid black; */
+        background-image: url(/src/assets/Images/hero_bg1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.185);
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .verify-header{
+        width: 100%;
+        height: 733px;
+        /* border: 1px solid black; */
+        background-image: url(/src/assets/Images/hero_bg1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.185);
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .verifyimage{
+        width: 79%;
+        height: 550px;
+        /* border: 1px solid black; */
+    }
+    .ftwrp{
+        width: 100%;
+        height: 1300px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .ftwrp-card{
+        width: 90%;
+        height: 1000px;
+        /* border: 1px solid black; */
+    }
+    
+}
+
+@media screen and (max-width: 654px) {
+    .verifyheader{
+        width: 83%;
+        height: 220px;
+        /* border: 1px solid black; */
+        margin-top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .health1{
+        width: 80%;
+        height: 200px;
+        /* border: 1px solid black; */
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .verify-img{
+        max-height: 58%;
+        position: initial;
+        margin-bottom: -100px;
+        margin-top: 240px;
+        margin-left: 22%;
+        overflow-x: none;
+    }
+    
+}
+
+@media screen and (max-width: 601px) {
+    .verify-img{
+        max-height: 58%;
+        position: initial;
+        margin-bottom: -100px;
+        margin-top: 240px;
+        margin-left: 15%;
+        overflow-x: none;
+    }
+}
+
+@media screen and (max-Width: 552px) {
+    .verifyheader{
+        width: 83%;
+        height: 220px;
+        /* border: 1px solid black; */
+        margin-top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-Width: 497px){
+    .verify-img{
+        max-height: 58%;
+        position: initial;
+        margin-bottom: -100px;
+        margin-top: 240px;
+        margin-left: 5%;
+        overflow-x: none;
+    }
+    .submit-button1{
+        width: 35%;
+        height: 47px;
+        background: #274760;
+        font-size: 18px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7%;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .verify-img{
+        max-height: 50%;
+        position: initial;
+        margin-bottom: -100px;
+        margin-top: 240px;
+        overflow-x: none;
+    }
+    .verifyh1{
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        color: #274760;
+        font-weight: bold;
+    }
+    .verifyp{
+        font-size: 16px;
+        color: #274760;
+    }
+    .verifyheader{
+        width: 83%;
+        height: 200px;
+        /* border: 1px solid black; */
+        margin-top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
     }
 }

@@ -12,7 +12,7 @@
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 10;
+  z-index: 103;
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -21,7 +21,7 @@
 .hamburger-button span {
   width: 2rem;
   height: 0.25rem;
-  background: #333;
+  background: #fff;
   border-radius: 10px;
   transition: all 0.3s linear;
   position: relative;
@@ -71,7 +71,7 @@
 
 .menu a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-size: 1.2rem;
 }
 
