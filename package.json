@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.7.7",
     "bootstrap-icons": "^1.11.3",
     "lucide-react": "^0.441.0",
     "react": "^18.3.1",
@@ -21,7 +22,10 @@
     "react-router": "^6.26.2",
     "react-router-dom": "^6.26.2",
     "react-select": "^5.8.1",
+<<<<<<< HEAD
     "rechart": "^0.0.1",
+=======
+>>>>>>> 5d88466a54a9ac7574c5c8eab07a3ced0f71f71f
     "recharts": "^2.12.7"
   },
   "devDependencies": {

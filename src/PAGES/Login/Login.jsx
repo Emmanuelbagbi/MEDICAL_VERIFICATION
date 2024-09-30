@@ -1,10 +1,10 @@
 import  './Login.css'
 import { useState } from "react";
-import DatePicker from "react-datepicker";
-import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+import LoginImage from '/src/assets/Images/Medical.png'
+
 
 function Login() {
     const [formData, setFormData] = useState({
@@ -19,11 +19,7 @@ function Login() {
         preferredTime: "",
       });
     
-      const reasonOptions = [
-        { value: "Nigeria", label: "Nigeria" },
-        { value: "America", label: "America" },
-        { value: "Australia", label: "Australia" },
-      ];
+      
     
       const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -31,9 +27,7 @@ function Login() {
       };
     
     
-      const handleSelectChange = (option) => {
-        setFormData({ ...formData, reasonForVisit: option });
-      };
+      
     
       const handleSubmit = (e) => {
         e.preventDefault();
@@ -49,7 +43,7 @@ function Login() {
             <p>Login here if you Already have an Account</p>
         </div>
         <div className='Login-up-imagediv'>
-            <img src="/src/assets/Images/Medical.png" />
+            <img src={LoginImage} />
         </div>
     </section>
 
@@ -58,31 +52,6 @@ function Login() {
         <section className='contactform3'>
             <div className="contact-container3">
                 <div className="contactinfo4">
-                    <div className="Namediv3">
-                    <div className="signup-group">
-                        <label>First Name</label>
-                        <input
-                        type="text"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        placeholder="First Name"
-                        required
-                        />
-                    </div>
-
-                    <div className="signup-group">
-                        <label>Last Name</label>
-                        <input
-                        type="text"
-                        name="lastname"
-                        value={formData.lastname}
-                        onChange={handleInputChange}
-                        placeholder="Last Name"
-                        required
-                        />
-                    </div>
-                    </div>
                     <div className="Namediv3">
                     <div className="signup-group1">
                         <label>Email</label>

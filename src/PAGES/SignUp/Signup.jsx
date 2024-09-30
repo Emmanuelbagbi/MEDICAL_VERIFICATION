@@ -1,40 +1,24 @@
 import  './SignUp.css'
 import { useState } from "react";
-import DatePicker from "react-datepicker";
-import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import { BiArrowToRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+import signupImage from '/src/assets/Images/banner_img (2).png'
+// import image from '../../assets/Images/banner_img (2).png'
 
 function Signup() {
     const [formData, setFormData] = useState({
         name: "",
-        lastname: "",
-        password: "",
-        phoneNumber: "",
         Email: "",
-        reasonForVisit: null,
-        department: "",
-        preferredDate: new Date(),
-        preferredTime: "",
+        password: '',
       });
     
-      const reasonOptions = [
-        { value: "Nigeria", label: "Nigeria" },
-        { value: "America", label: "America" },
-        { value: "Australia", label: "Australia" },
-      ];
     
       const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
       };
-    
-    
-      const handleSelectChange = (option) => {
-        setFormData({ ...formData, reasonForVisit: option });
-      };
-    
+
       const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Form Submitted", formData);
@@ -49,7 +33,7 @@ function Signup() {
             <p>Kindly Signup for better Experience</p>
         </div>
         <div className='sign-up-imagediv'>
-            <img src="/src/assets/Images/banner_img (2).png" />
+            <img src={signupImage} />
         </div>
     </section>
 
@@ -58,31 +42,19 @@ function Signup() {
         <section className='contactform3'>
             <div className="contact-container3">
                 <div className="contactinfo3">
-                    <div className="Namediv3">
                     <div className="signup-group">
-                        <label>First Name</label>
+                        <label>Full Name</label>
                         <input
-                        type="text"
+                        type="name"
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        placeholder="First Name"
+                        placeholder="FullName"
                         required
                         />
                     </div>
 
-                    <div className="signup-group">
-                        <label>Last Name</label>
-                        <input
-                        type="text"
-                        name="lastname"
-                        value={formData.lastname}
-                        onChange={handleInputChange}
-                        placeholder="Last Name"
-                        required
-                        />
-                    </div>
-                    </div>
+
                     <div className="Namediv3">
                     <div className="signup-group1">
                         <label>Email</label>
@@ -93,30 +65,6 @@ function Signup() {
                         value={formData.Email}
                         onChange={handleInputChange}
                         placeholder="Example@gmail.com"
-                        />
-                    </div>
-                    </div>
-                    <div className="Namediv3">
-                    <div className="signup-group3">
-                        <label>Country</label>
-                        <Select
-                        className='select3'
-                        name="reasonForVisit"
-                        options={reasonOptions}
-                        value={formData.reasonForVisit}
-                        onChange={handleSelectChange}
-                        />
-                    </div>
-
-                    <div className="signup-group">
-                        <label>Phone Number</label>
-                        <input
-                        type="tel"
-                        name="phoneNumber"
-                        value={formData.phoneNumber}
-                        onChange={handleInputChange}
-                        placeholder="(123) 456 - 789"
-                        required
                         />
                     </div>
                     </div>
