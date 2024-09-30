@@ -5,6 +5,7 @@ nav{
     justify-content: space-between;
     width: 985px;
     margin-right: 15px;
+    position: relative;
 }
 nav p{
     font-size: 14px;
@@ -37,10 +38,18 @@ nav p{
     justify-content: center;
     position: absolute;
     top: 13px;
-    right: 15px;
-
+    right: 0;
+}
+#dark .red-name{
+    top: 11px;
+    right: -2px;
 }
 .toggle-not{
     display: flex;
     gap: 20px;
 }
+/* .switch-mode{
+    position: absolute;
+    top: 16px;
+    right: 80px;
+} */

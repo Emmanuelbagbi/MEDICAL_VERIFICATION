@@ -30,6 +30,9 @@ aside{
     width: 27px;
     height: 28px;
 }
+#dark .logo-div img{
+    border-radius: 50%;
+}
 .logo-div h2{
     font-size: 22px;
 }
@@ -112,6 +115,7 @@ aside{
 .tommy-div img{
     width: 20px;
     height: 20px;
+    border-radius: 50%;
 }
 #dark .tommy-div{
     color: rgb(194, 197, 199);

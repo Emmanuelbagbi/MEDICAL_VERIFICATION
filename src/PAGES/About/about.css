@@ -1,8 +1,10 @@
+.about-all{
+    overflow: hidden;
+}
 .about-sec{
     padding-top: 200px;
     padding-left: 60px;
     height: 130vh;
-   
 }
 .about-div{
     position: relative;
@@ -298,3 +300,270 @@
     border-radius: 30px;
     border: 1px solid gainsboro;
 }
+@media screen and (max-width: 1206px) {
+.value-div{
+    gap: 60px;
+}
+.docs-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media screen and (max-width: 1197px) {
+  .doc-div{
+    width: 400px;
+    top: 380px;
+  }
+  .pat-div{
+    left: 25%;
+    top: 380px;
+  }
+  .hours-div{
+    right: 12%;
+    top: 390px;
+  }
+  .doc-girl{
+    left: 45%;
+  }
+  .doc-girl img{
+    width: 85%;
+}
+    }
+    @media screen and (max-width: 1159px) {
+        .about-sec{
+            height: 100vh;
+        }
+        .doc-div{
+          width: 330px;
+          top: 380px;
+        }
+        .pat-div{
+          left: 25%;
+          top: 380px;
+        }
+        .pat-div img{
+            width: 230px;
+        }
+        .hours-div{
+          right: 12%;
+          top: 390px;
+        }
+          }
+@media screen and (max-width: 1050px) {
+    .doc-girl{
+        left: 49%;
+      }
+      .doc-girl img{
+        width: 85%;
+    }
+          }
+@media screen and (max-width: 1007px) {
+   .pro-grid{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .ped-box{
+    gap: 10px;
+   }
+   .ped-div button{
+    width: 100px;
+   }
+    }
+    @media screen and (max-width: 987px) {
+        .about-div h1{
+            font-size: 52px;
+        }
+        .pro-txt p{
+            font-size: 17px;
+        }
+        .doc-div{
+            width: 300px;
+            top: 380px;
+          }
+          .pat-div{
+            left: 27%;
+            top: 380px;
+          }
+          .pat-div img{
+              width: 170px;
+          }
+          .hours-div{
+            right: 12%;
+            top: 390px;
+          }
+          .hours-div img{
+            height: 80px;
+          }
+        .love-img{
+            right: 3%;
+            top: 30px;
+          }
+    }
+    @media screen and (max-width: 856px) {
+        .about-sec{
+            padding-top: 170px;
+            height: 100vh;
+        }
+        .about-div h1{
+            font-size: 42px;
+            line-height: 60px;
+        }
+        .pro-txt p{
+            font-size: 15px;
+        }
+        .doc-div{
+            width: 250px;
+            top: 380px;
+          }
+        .pat-div img{
+            width: 150px;
+        }
+        .hours-div img{
+            height: 70px;
+        }
+        .pro-grid{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .docs-div{
+            grid-template-columns: repeat(1,1fr);
+            width: 85%;
+        }
+        .ped-box{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media screen and (max-width: 736px) {
+        .doc-div{
+           display: none;
+          }
+          .pat-div img{
+            width: 190px;
+          }
+        .pat-div{
+            left: 0;
+            top: 300px;
+        }
+        .hours-div{
+            right: 20%;
+            top: 330px;
+          }
+          .love-img img{
+            width: 65%;
+        }
+        .love-img{
+            right: 0;
+            top: 20px;
+        }
+        .about-sec{
+            height: 92vh;
+        }
+        .about-div h1{
+            font-size: 38px;
+            line-height: 55px;
+        }
+        .pro-txt p{
+            font-size: 14px;
+        }
+        .ped-div button{
+            width: 200px;
+        }
+    }
+    @media screen and (max-width: 647px) {
+        .about-div h1{
+            font-size: 34px;
+            line-height: 45px;
+        }
+        .pro-txt p{
+            font-size: 12px;
+        }
+        .pat-div img{
+            width: 140px;
+        }
+        .hours-div img{
+            height: 65px;
+        }
+        .love-img img{
+            width: 45%;
+        }
+        .love-img{
+            right: 0;
+            top: 10px;
+        }
+        .about-sec{
+            padding-left: 20px;
+        }
+    }
+    @media screen and (max-width: 539px) {
+        .about-div h1{
+            font-size: 28px;
+            line-height: 40px;
+        }
+        .pro-txt p{
+            font-size: 10px;
+        }
+        .pat-div img{
+            width: 120px;
+        }
+        .hours-div img{
+            height: 55px;
+        }
+        .love-img img{
+            width: 45%;
+        }
+        .love-img{
+            right: 0;
+            top: 10px;
+        }
+        .about-sec{
+            padding-left: 20px;
+            height: 85vh;
+        }
+        .app-div h1{
+            font: 24px;
+            white-space: nowrap;
+        }
+        .app-div{
+            padding: 60px 20px;
+            width: 92%;
+        }
+    }
+    @media screen and (max-width: 482px) {
+        .about-div h1{
+            font-size: 26px;
+            line-height: 40px;
+        }
+        .app-div h1{
+            font: 17px;
+            text-align: center;
+        }
+        .pro-txt p{
+            font-size: 9px;
+        }
+        .pat-div{
+            top: 200px;
+        }
+        .pat-div img{
+            width: 100px;
+        }
+        .hours-div{
+            top: 220px;
+        }
+        .hours-div img{
+            height: 45px;
+        }
+        .love-img img{
+            width: 35%;
+        }
+        .love-img{
+            right: 0;
+            top: 10px;
+        }
+        .about-sec{
+            padding-left: 20px;
+            height: 73vh;
+        }
+    }
+    
+    @media screen and (max-width: 823px) {
+       
+    }

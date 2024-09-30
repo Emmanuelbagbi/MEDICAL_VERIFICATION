@@ -8,9 +8,9 @@ import ToggleButton from './toggleButton';
        <nav>
         <p>Dashboard</p>
        <div className='toggle-not'>
-        <div>
+        {/* <div>
             <ToggleButton/>
-        </div>
+        </div> */}
         <div>
         <div className='notif-circle'>
        <MdNotificationsNone/>

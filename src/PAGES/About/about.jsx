@@ -26,6 +26,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 const About = () => {
     return(
         <>
+        <div className='about-all'>
         <section  style={{
             backgroundImage: `url(${Vhome})`,
             backgroundRepeat: "none",
@@ -269,7 +270,7 @@ const About = () => {
                 </div>
             </div>
         </section> */}
-      
+      </div>
         </>
     )
 }

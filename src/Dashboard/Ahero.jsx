@@ -10,7 +10,7 @@
             </div>
             <div className='attention-div'>
             <div>
-            <img src="box-image.png" alt="" />
+            <img className='box-img' src="box-image.png" alt="" />
             </div>
             <div>
             <p className='att-text'>Attention!</p>

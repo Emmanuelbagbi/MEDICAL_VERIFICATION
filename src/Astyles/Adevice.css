@@ -17,16 +17,24 @@
     font-size: 19px;
     color: rgb(60, 61, 61);
 }
-
+#dark .devices-div h3{
+    color: rgb(196, 194, 194);
+}
 .solar-text{
     margin-top: 15px;
     font-size: 14px;
     font-weight: 600;
     color: rgb(77, 78, 78);
 }
+#dark .solar-text{
+    color: rgb(181, 178, 178);
+}
 .number-text{
     margin-top: 9px;
     font-size: 54px;
+}
+#dark .number-text{
+    color: rgb(205, 203, 203);
 }
 .panel-div{
     margin-top: 11px;
@@ -45,10 +53,16 @@
     font-size: 12px;
     color: rgb(83, 84, 85);
 }
+#dark .deactive-div p{
+    color: rgb(181, 178, 178);
+}
 .energy-div{
     margin-top: 26px;
 }
 .energy-div p{
     text-align: center;
     font-size: 15px;
+}
+#dark .energy-div p{
+    color: rgb(181, 178, 178);
 }
