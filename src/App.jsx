@@ -1,6 +1,6 @@
 import Footer from "./COMPONENTS/Footer/Footer";
 import Homepage from "./PAGES/Homepage/Homepage";
-import ScrollTop from "./COMPONENTS/ScrollTop";
+// import ScrollTop from "./COMPONENTS/ScrollTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./PAGES/Contact/Contact";
 import VerifyDrugs from "./PAGES/Verify_Drugs/VerifyDrugs";
@@ -19,7 +19,7 @@ function App() {
       <About />
       <Footer /> */}
       <Router>
-        <ScrollTop />
+        {/* <ScrollTop /> */}
         <Routes>
           <Route path="/" index element={<Homepage />} />
           <Route path="/Signup" index element={<Signup />} />
