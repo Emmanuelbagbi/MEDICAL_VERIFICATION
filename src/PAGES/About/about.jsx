@@ -21,12 +21,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import Navbar from '../../COMPONENTS/Navbar/Navbar';
 
 
 const About = () => {
     return(
         <>
         <div className='about-all'>
+            <Navbar/>
         <section  style={{
             backgroundImage: `url(${Vhome})`,
             backgroundRepeat: "none",

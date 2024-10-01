@@ -11,6 +11,7 @@ import Adimage5 from '/src/assets/home_2/department_icon_3.svg'
 import Adimage6 from '/src/assets/home_2/department_icon_4.svg'
 import Adimage7 from '/src/assets/home_2/department_icon_5.svg'
 import Adimage8 from '/src/assets/home_2/department_icon_6.svg'
+import Navbar from '../../COMPONENTS/Navbar/Navbar';
 
 
 function Homepage() {
@@ -53,7 +54,7 @@ function Homepage() {
     <>
           <section className='homepage'>
         {/* <Navbar></Navbar> */}
-        
+        <Navbar />
         <div className="advert">
             <img src={Adimage}/>
         </div>

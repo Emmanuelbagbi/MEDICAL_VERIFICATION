@@ -47,11 +47,12 @@
   right: 0;
   height: 100vh;
   width: 300px;
-  transform: translateX(100%); /* Initially off-screen */
+  transform: translateX(110%); /* Initially off-screen */
   background-color: #27476080;
     -webkit-transition: transform 0.3s ease-in-out;
     transition: all 0.4s ease;
     backdrop-filter: blur(10px);
+    margin-right: 0px;
 }
 
 .menu.open {
@@ -62,11 +63,12 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  padding-top: 4rem; /* Add some padding to avoid overlap with the button */
+  padding-top: 1rem;
+  padding-left: 1rem; /* Add some padding to avoid overlap with the button */
 }
 
 .menu li {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .menu a {

@@ -9,6 +9,7 @@ import VerifyImage2 from '/src/assets/contact/icon_1.svg'
 import VerifyImage3 from '/src/assets/home_1/ambulance.svg'
 import VerifyImage4 from '/src/assets/contact/icon_3.svg'
 import VerifyImage5 from '/src/assets/Images/appointment.jpeg'
+import Navbar from '../../COMPONENTS/Navbar/Navbar';
 
 
 function VerifyDrugs() {
@@ -51,6 +52,7 @@ function VerifyDrugs() {
 
   return (
    <div className='drugV'>
+    <Navbar/>
     <div className="verify-header">
         <div className="verifyheader">
           <h1 className='verifyh1'>Your Partner in Health and Wellness</h1>

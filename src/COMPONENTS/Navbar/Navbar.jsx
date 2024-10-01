@@ -50,7 +50,6 @@ function Navbar() {
 
   return (
     <header className={`${isSticky ? 'cs_gescout_sticky' : ''} ${isVisible ? 'cs_gescout_show' : ''}`}>
-      {!UserId?(
         <>
             <div className="logo">
       <a href=""><svg width="173" height="28" viewBox="0 0 173 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,37 +74,11 @@ function Navbar() {
       </button></Link>
 
      <div className="search-bar">
-     <div className="hamburger-menu">
-      <button className={`hamburger-button ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-        <div className="hamburger-menu">
-      <button className={`hamburger-button ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav className={`menu ${isOpen ? 'open' : ''}`}>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    </div>
+     <Hamburger/>
      </div>
 
       </div>
         </>
-      ):(
-        <>
-          <Link to='Admin'>Admin</Link>
-        </>
-      )}
     </header>
   );
 }

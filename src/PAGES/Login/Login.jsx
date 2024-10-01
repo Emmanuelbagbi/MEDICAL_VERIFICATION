@@ -80,7 +80,7 @@ function Login() {
                     </div>
                     </div>
                     <button type="submit" className="submit-button">
-                       <Link to='/dashboard'>Login <BiArrowToRight /></Link> 
+                       <Link to='/dashboard' className='a1'>Login <BiArrowToRight /></Link> 
                     </button>
 
                     <div className="signup-last">

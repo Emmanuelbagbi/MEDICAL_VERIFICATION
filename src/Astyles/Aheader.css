@@ -48,8 +48,8 @@ nav p{
     display: flex;
     gap: 20px;
 }
-/* .switch-mode{
+.switch-mode{
     position: absolute;
     top: 16px;
     right: 80px;
-} */
+}

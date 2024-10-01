@@ -9,6 +9,7 @@ import Signup from "./PAGES/SignUp/Signup";
 import Login from "./PAGES/Login/Login";
 import About from "./PAGES/About/about";
 import Admin from '../src/PAGES/Admin/Admin'
+import ToogleMode from "./Dashboard/Togglemode";
 // import ManufacturerDashboard from './PAGES/Admin/Admin'
 
 
@@ -19,7 +20,6 @@ function App() {
       <About />
       <Footer /> */}
       <Router>
-        <Navbar />
         <ScrollTop />
         <Routes>
           <Route path="/" index element={<Homepage />} />
@@ -30,6 +30,7 @@ function App() {
           <Route path="/" index element={<Homepage />} />
           <Route path="/Contact" index element={<Contact />} />
           <Route path="/About" index element={<About />} />
+          <Route path="/dashboard" index element={<ToogleMode/>} />
           <Route path="/Admin" index element={<Admin />} />
         </Routes>
         <Footer />
