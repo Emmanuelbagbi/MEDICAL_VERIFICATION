@@ -40,9 +40,9 @@ function Signup() {
     <section className='signup-form'>
     <form onSubmit={handleSubmit} >
         <section className='contactform3'>
-            <div className="contact-container3">
+            <div className="contact-container33">
                 <div className="contactinfo3">
-                    <div className="signup-group">
+                    <div className="signup-group14">
                         <label>Full Name</label>
                         <input
                         type="name"
@@ -81,7 +81,7 @@ function Signup() {
                         />
                     </div>
                     </div>
-                   <Link to='/Admin'> <button type="submit" className="submit-button">
+                   <Link to='/Admin'> <button type="submit" className="submit-button12">
                         Signup <BiArrowToRight />
                     </button></Link>
 
