@@ -1,0 +1,198 @@
+
+.cs_shape_wrap {
+    position: relative;
+}
+
+.cs_shape_wrap .cs_shape_1 {
+    width: 1884px;
+    height: 1884px;
+    border-radius: 50%;
+    opacity: 0.6;
+    background: radial-gradient(42.35% 42.35% at 50% 50%, rgba(134, 187, 241, 0.38) 0%, rgba(134, 187, 241, 0) 100%);
+    position: absolute;
+    z-index: -1;
+}
+.cs_height_lg_100 {
+    height: 100px;
+}
+.cs_height_xl_140 {
+    height: 140px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.cs_fs_721 {
+    font-size: 56px;
+    display:block;
+    font-family:Figtree, sans-serif;
+    font-size:42px;
+    font-weight:700;
+    clear: both;
+    color: #274760;
+}
+.cs_height_105 {
+    height: 105px;
+}
+.cs_iconbox_3_wrap {
+    position: relative;
+}
+.cs_iconbox_3_wrap::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #274760;
+}
+.cs_iconbox.cs_style_3 .cs_iconbox_left {
+    padding-right: 120px;
+}
+.cs_iconbox.cs_style_3 .cs_iconbox_left{
+    width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+
+.cs_iconbox.cs_style_3 .cs_iconbox_icon {
+    height: 136px;
+    width: 136px;
+    background: rgba(48, 123, 196, 0.17);
+    margin-left: auto;
+    transition: all 0.4s ease;
+    padding: 25px;
+}
+
+.cs_iconbox_icon img{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    max-width: 100%;
+}
+.cs_iconbox.cs_style_3::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: calc(100% + 50px);
+    background-color: #307bc4;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -25px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.cs_iconbox.cs_style_3 .cs_iconbox_right {
+    padding-left: 200px;
+    position: relative;
+}
+
+.cs_center {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:not(:last-child) {
+    margin-bottom: 146px;
+}
+.cs_iconbox.cs_style_3 {
+    display: flex;
+    position: relative;
+}
+
+.cs_iconbox.cs_style_3 .cs_iconbox_right {
+    padding-left: 200px;
+    position: relative;
+}
+
+.cs_iconbox.cs_style_3 .cs_iconbox_number {
+    font-size: 72px;
+    color: rgba(48, 123, 196, 0.08);
+    line-height: 1.14;
+    position: absolute;
+    left: 84px;
+    top: -20px;
+    font-family:Figtree, sans-serif;
+    font-weight: 700;
+}
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:nth-child(even) .cs_iconbox_number {
+    left: initial;
+    right: 84px;
+}
+.cs_iconbox.cs_style_3 .cs_iconbox_title {
+    margin-bottom: 20px;
+    font-family:Figtree, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height:34.06px;
+    color: #274760;
+}
+.cs_semibold {
+    font-weight: 600;
+}
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+}
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:not(:last-child) {
+    margin-bottom: 146px;
+}
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:nth-child(even) .cs_iconbox_left {
+    padding-right: 0px;
+    padding-left: 120px;
+}
+.cs_iconbox.cs_style_3 .cs_iconbox_left {
+    width: 50%;
+    -webkit-box-flex: 0;
+    flex: none;
+}
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:nth-child(even) .cs_iconbox_icon {
+    margin-left: initial;
+}
+.cs_iconbox.cs_style_3 .cs_iconbox_icon {
+    height: 136px;
+    width: 136px;
+    background: rgba(48, 123, 196, 0.17);
+    margin-left: auto;
+    -webkit-transition: all 0.4s 
+ease;
+    transition: all 0.4s 
+ease;
+    padding: 25px;
+}
+.cs_iconbox_3_wrap .cs_iconbox.cs_style_3:nth-child(even) .cs_iconbox_right {
+    padding-right: 200px;
+    padding-left: 0;
+    text-align: right;
+}
+.cs_iconbox.cs_style_3 .cs_iconbox_right {
+    padding-left: 200px;
+    position: relative;
+}
+
+.cs_iconbox_subtitle {
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    color: rgba(39, 71, 96, 0.52);
+    line-height:25.6px;
+}
+
+.cs_iconbox.cs_style_3:hover .cs_iconbox_icon {
+  background-color: #307bc4;
+}
+
+.cs_iconbox.cs_style_3:hover::before {
+  opacity: 1;
+}

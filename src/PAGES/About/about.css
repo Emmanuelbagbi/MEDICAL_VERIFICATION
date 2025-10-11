@@ -1,13 +1,14 @@
 .about-all{
-    overflow: hidden;
+   height: max-content;
 }
 .about-sec{
     padding-top: 200px;
     padding-left: 60px;
-    height: 130vh;
+    height: max-content;
 }
 .about-div{
     position: relative;
+    height: max-content;
   /* display: flex; */
 }
 .about-div h1{

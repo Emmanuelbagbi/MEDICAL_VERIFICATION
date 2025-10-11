@@ -1,0 +1,242 @@
+
+
+.cs_bg_filed {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:1016.88px;
+    display:block;
+    font-family:Poppins, sans-serif
+}
+
+.cs_height_19023 {
+    height:145px;
+}
+
+.container2{
+    width:1190px;
+    padding-left:12px;
+    padding-right:12px;
+    margin-left:40px;
+margin-right:60px;
+max-width:1320px;
+
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.cs_slider_heading_1 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    gap: 29%;
+}
+
+.testimonial-title{
+    color: #307bc4;
+    font-weight: 600;
+    font-family:Figtree, sans-serif;
+    font-size:26px;
+    line-height:34.06px;
+}
+
+
+
+.cs_testimonial_sub-title{
+    font-family:Figtree, sans-serif;
+font-size:56px;
+font-weight:700;
+line-height:63.84px;
+clear: both;
+color: #274760;
+}
+
+.cs_slider_navigation.cs_style_1 {
+    gap: 15px;
+    column-gap:15px;
+    display:flex;
+}
+
+.cs_slider_navigation.cs_style_1 .cs_slider_prev, .cs_slider_navigation.cs_style_1 .cs_slider_next {
+    width: 90px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #307BC4;
+}
+.cs_slider_navigation.cs_style_1 .cs_slider_prev:hover,
+.cs_slider_navigation.cs_style_1 .cs_slider_next:hover {
+  background-color: #307bc4;
+  color: white;
+}
+
+.cs_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cs_height_70 {
+    height: 70px;
+}
+
+.slick-slider
+ {
+    position: relative;
+    display: block;
+    user-select: none;
+    -webkit-touch-callout: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cs_gap_20 .slick-list {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track{
+    opacity: 1;
+    width: 5264px;
+    transform: translate3d(-1316px, 0px, 0px);
+}
+
+.slick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+.cs_gap_20 .slick-slide {
+    width: 658px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    margin-top: 65px;
+}
+.slick-initialized .slick-slide > div {
+    display: flex;
+}
+
+.cs_testimonial.cs_style_2 .cs_testimonial_text {
+    position: relative;
+    margin-bottom: 35px;
+}
+.cs_white_bg {
+    background-color: #ffffff;
+}
+.cs_radius_25 {
+    border-radius: 25px;
+    font-size: 22px;
+    padding-left:124px;
+padding-right:60px;
+padding-top:60px;
+padding-bottom: 60px;
+width:548px;
+font-family:Poppins, sans-serif;
+font-size:22px;
+font-weight:400;
+height:354.125px;
+line-height:31.02px;
+margin-bottom:35px;
+}
+
+
+.cs_testimonial.cs_style_2 .cs_quote_icon {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.cs_testimonial.cs_style_2 .cs_testimonial_text p
+ {
+    margin-bottom: 32px;
+    font-family:Poppins, sans-serif;
+font-size:18px;
+font-weight:400;
+color: rgba(39, 71, 96, 0.52);
+line-height:31.02px;
+}
+
+.cs_rating {
+    width: 99px;
+    position: relative;
+    font-size: 16px;
+    color: #307bc4;
+}
+
+.cs_rating .cs_rating_bg {
+    display: flex;
+    gap: 2px;
+}
+.fa-star:before {
+    content: "\f005";
+}
+
+.cs_rating_bg{
+    width: 99px;
+    position: relative;
+    font-size: 16px;
+    color: #307bc4;
+}
+
+.cs_testimonial.cs_style_2 .cs_testimonial_meta {
+    display: flex;
+    gap: 25px 30px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.cs_testimonial.cs_style_2 .cs_testimonial_avatar {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.cs_testimonial.cs_style_2 .cs_testimonial_avatar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+
+.slick-slide img {
+    display: block;
+}
+
+.cs_semibold {
+    font-weight: 600;
+    font-size: 22px;
+    color: #274760;
+    clear: both;
+}
+
+.cs_heading_color {
+    color: #274760;
+}

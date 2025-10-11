@@ -1,0 +1,47 @@
+
+
+.Health-Banner-container{
+    width: 100%;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 90px;
+}
+
+.cs_white_color {
+    color: #fff;
+}
+
+.cs_bg_filed3 {
+    width:1116px;
+    padding-bottom:150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cs_radius_254 {
+    border-radius: 25px;
+    padding-bottom:150px;
+    padding-left:446.396px;
+    padding-right:55.7917px;
+    padding-top:150px;
+    text-align:start;
+    width:1116px;
+    height:509.688px;
+}
+
+.cs_height_22 {
+    height: 22px;
+}
+
+.cs_fs_2040 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: white;
+    font-family:Poppins, sans-serif;
+}
+

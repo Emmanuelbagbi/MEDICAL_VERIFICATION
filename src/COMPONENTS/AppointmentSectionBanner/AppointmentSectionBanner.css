@@ -1,0 +1,304 @@
+
+.cs_bg_filed34 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cs_height_132 {
+    height: 132px;
+}
+.cs_appointment_img {
+   width: 718.198px;
+   height:796.115px;
+   position: absolute;
+}
+
+
+.row55 {
+    width:1140px;
+    height: 687.646px;
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.offset-lg-6 {
+    margin-left: 56%;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.cs_accent_color {
+    color: #307bc4;
+}
+
+.cs_semibold {
+    font-weight: 600;
+}
+.cs_fs_32222 {
+    font-size: 26px;
+}
+.cs_section_heading56{
+    width:546px;
+    height:102.906px;
+    font-family: Poppins, sans-serif;
+    line-height:25.6px;
+}
+.cs_height_5 {
+    height: 5px;
+}
+.cs_fs_7222 {
+   font-family: Figtree, sans-serif;
+   font-size: 72px;
+   font-weight: 700;
+   line-height: 63.84px;
+   color: #274760;
+}
+
+.cs_height_57 {
+    height: 57px;
+}
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+.stausp{
+    margin-bottom: 15px;
+}
+ul {
+    list-style: disc;
+}
+
+ul {
+    margin: 0 0 25px 0;
+    padding-left: 20px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+input {
+    color: #274760;
+}
+.row98 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width:50%;
+    font-family:Poppins, sans-serif;
+    padding-left:12px;
+padding-right:12px;
+}
+.cs_input_label {
+    margin-bottom: 10px;
+}
+.cs_heading_color {
+    color: #274760;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.cs_form_field {
+    display: block;
+    width:100%;
+    height:58.9271px;
+    border-radius: 30px;
+    font-weight: 400;
+    line-height:25.6px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(48, 123, 196, 0.5);
+    background-color: transparent;
+}
+.cs_form_field {
+    padding: 16px 20px;
+    border-radius: 15px;
+}
+.cs_height_xl_25 {
+    height: 25px;
+}
+.cs_input_label {
+    line-height:37.6px;
+    margin-bottom: 10px;
+}
+
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 570px;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.wpcf7-form-control{
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    line-height:25.6px;
+}   
+
+.fa-calendar-days,
+.fa-clock {
+    top: 20px;
+    left: 20px;
+}
+
+.fa-calendar-days,
+.fa-clock{
+    position: absolute;
+    color: #307bc4;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.cs_with_icon_input {
+    position: relative;
+}
+
+ .fa-calendar-days:before {
+    content: "\f073";
+}
+
+.main-form-btn .cs_btn.cs_style_1 {
+    background: #274760;
+}
+.cs_btn.cs_style_1 {
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 4px 20px 0px rgba(39, 71, 96, 0.17);
+    box-shadow: 0px 4px 20px 0px rgba(39, 71, 96, 0.17);
+    font-weight: 500;
+    color: #fff;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 40px;
+    outline: none;
+    border: none;
+    position: relative;
+    background: transparent;
+}
+.cs_btn.cs_style_1::before {
+    background-image: linear-gradient(134deg, #307bc4 0%, #274760 100%);
+}
+.cs_btn.cs_style_1::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.cs_btn.cs_style_1::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.4s 
+ease-in-out;
+    transition: all 0.4s 
+ease-in-out;
+}
+ .cs_btn.cs_style_1::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: 0.75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+}
+.wpcf7-spinner::before {
+    animation-name: blink;
+    animation-duration: 2000ms;
+}
+.wpcf7-spinner::before {
+    content: '';
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+.cs_height_120 {
+    height: 120px;
+}
+    .cs_appointment_section_1 .cs_appointment_img {
+        left: -10%;
+        width: 63%;
+    }
+
+.cs_appointment_img img{
+    width:718.188px;
+    height:796.115px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+select {
+    word-wrap: normal;
+}
+select {
+    text-transform: none;
+}
+.form-main-area .cs_select {
+    appearance: none;
+}
+.cs_with_icon_input .cs_form_field {
+    padding-left: 50px;
+}

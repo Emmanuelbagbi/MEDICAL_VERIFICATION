@@ -1,0 +1,109 @@
+
+.cs_height_xl_150 {
+        height: 150px;
+    }
+
+    .slick-slider {
+    position: relative;
+    display: block;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    width: 7505px;
+    transform: translate3d(-2765px, 0px, 0px);
+}
+
+.slick-track:before
+ {
+    display: table;
+    content: '';
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-initialized .slick-slide > div
+ {
+    display: flex;
+}
+.cs_brands.cs_style_2 {
+    padding: 0 20px;
+    text-align: center;
+    height: 136px;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.slick-slide img {
+    display: block;
+        border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width:261px;
+}
+.slick-track:after {
+    display: table;
+    content: '';
+}
+.slick-track:after {
+    clear: both;
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px 15px;
+    margin-top: 90px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.slick-dots li
+ {
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 2px solid #307bc4;
+    opacity: 1;
+    border-radius: 1.6em;
+    -webkit-transition: all 0.4s 
+ease;
+    transition: all 0.4s 
+ease;
+    overflow: hidden;
+    position: relative;
+}
+.slick-dots li button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.slick-dots li.slick-active {
+    background-color: #307bc4;
+}
+.cs_height_xl_150 {
+    height: 150px;
+}

@@ -1,32 +1,48 @@
-import  './Counter.css'
+import { useEffect } from "react";
+import "./Counter.css";
 
-import  { useState, useEffect } from 'react';
+// Load Odometer library from CDN
+// (You can also npm install odometer if you prefer)
+import "odometer/themes/odometer-theme-default.css";
+import Odometer from "odometer";
 
-
-const StatCounter = ({ end, duration = 3000, label }) => {
-  const [count, setCount] = useState(0);
-
+const StatCounter = ({ end, label }) => {
   useEffect(() => {
-    let startTime = null;
-    const animate = (timestamp) => {
-      if (!startTime) startTime = timestamp;
-      const progress = timestamp - startTime;
-      const increment = Math.min(end, Math.floor((progress / duration) * end));
-      setCount(increment);
-      if (progress < duration) {
-        requestAnimationFrame(animate);
-      }
-    };
-    requestAnimationFrame(animate);
-  }, [end, duration]);
+    const el = document.querySelector(`#odometer-${label.replace(/\s+/g, "-")}`);
+    if (el) {
+      const odometer = new Odometer({
+        el: el,
+        value: 0,
+        format: "(,ddd)", // adds commas for large numbers
+        duration: 2000,
+      });
+
+      // IntersectionObserver to trigger animation only when visible
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              odometer.update(end);
+              observer.unobserve(el);
+            }
+          });
+        },
+        { threshold: 0.6 }
+      );
+
+      observer.observe(el);
+    }
+  }, [end, label]);
 
   return (
     <div className="cs_hero_funfact_col">
       <h3 className="cs_white_color cs_fs_72">
-        <span className="odometer">{count}</span>
-        {label.includes('Years') || label.includes('Healthcare') ? '+' : '%'}
+        <span id={`odometer-${label.replace(/\s+/g, "-")}`} className="odometer">
+          0
+        </span>
+        {label.includes("Years") || label.includes("Healthcare") ? "+" : "+"}
       </h3>
-      <p className="cs_white_color mb-0">{label}</p>
+      <p className="mb-01">{label}</p>
     </div>
   );
 };
@@ -40,13 +56,11 @@ const HealthcareStats = () => {
   ];
 
   return (
-    <>
-      <div className="cs_hero_funfact_wrapper">
-        {stats.map((stat, index) => (
-          <StatCounter key={index} end={stat.end} label={stat.label} />
-        ))}
-      </div>
-    </>
+    <div className="cs_hero_funfact_wrapper">
+      {stats.map((stat, index) => (
+        <StatCounter key={index} end={stat.end} label={stat.label} />
+      ))}
+    </div>
   );
 };
 
