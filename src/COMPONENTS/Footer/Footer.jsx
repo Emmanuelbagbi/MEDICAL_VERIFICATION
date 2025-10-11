@@ -6,6 +6,79 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 function Footer() {
   return (
     <>
+     <div className="container2323">
+      <div className="cs_newsletter cs_style_1">
+        <div className="cs_newsletter_left">
+          <h2 className="cs_newsletter_title">
+            Be Our <br /> Subscribers
+          </h2>
+          <p className="cs_newsletter_subtitle">
+            To get the latest news about health <br /> from our experts
+          </p>
+        </div>
+
+        <div className="cs_newsletter_right">
+          <p>Your Email</p>
+
+          <div
+            className="wpcf7 js"
+            id="wpcf7-f48-o2"
+            lang="en-US"
+            dir="ltr"
+            data-wpcf7-id="48"
+          >
+            <div className="screen-reader-response">
+              <p role="status" aria-live="polite" aria-atomic="true"></p>
+              <ul></ul>
+            </div>
+
+            <form
+              action="/home-2/#wpcf7-f48-o2"
+              method="post"
+              className="wpcf7-form init"
+              aria-label="Contact form"
+              noValidate
+              data-status="init"
+            >
+              <div style={{ display: "none" }}>
+                <input type="hidden" name="_wpcf7" value="48" />
+                <input type="hidden" name="_wpcf7_version" value="6.0.3" />
+                <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f48-o2" />
+                <input type="hidden" name="_wpcf7_container_post" value="0" />
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+              </div>
+
+              <div className="cs_newsletter_form main-form-btn">
+                <span
+                  className="wpcf7-form-control-wrap"
+                  data-name="Newsletter_Email"
+                >
+                  <input
+                    size="40"
+                    maxLength="400"
+                    className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email cs_form_field"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="example@email.com"
+                    type="email"
+                    name="Newsletter_Email"
+                  />
+                </span>
+                <input
+                  className="wpcf7-form-control wpcf7-submit has-spinner cs_btn cs_style_1"
+                  type="submit"
+                  value="Submit"
+                />
+                <span className="wpcf7-spinner"></span>
+              </div>
+
+              <div className="wpcf7-response-output" aria-hidden="true"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
         <section className='footer'>
             <div className="column1">
                 <div className='footer1'>
