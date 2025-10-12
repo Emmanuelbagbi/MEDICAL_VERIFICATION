@@ -1,12 +1,13 @@
 import './Footer.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
-
+import { FaFacebookF, FaYoutube, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
 
 function Footer() {
   return (
     <>
-     <div className="container2323">
+       <div className="footer-">
+        <div className="container2323">
       <div className="cs_newsletter cs_style_1">
         <div className="cs_newsletter_left">
           <h2 className="cs_newsletter_title">
@@ -79,40 +80,59 @@ function Footer() {
         </div>
       </div>
     </div>
+       </div>
         <section className='footer'>
             <div className="column1">
                 <div className='footer1'>
-                    <div className="footer-logo"></div>
-                    <div className="footer-title">
-                    <p>ProHealth Medical & Healthcare Center</p>
+                    <div className="cs_text_widget">
+                      <img src="https://prohealth-wp.laralink.com/wp-content/uploads/2023/10/footer_logo_white.svg" alt="ProHealth" />
+                      <p className="cs_medium22">ProHealth Medical &amp; Healthcare Center</p>
                     </div>
-                    <div className="location">
-                        <div className="footer-circle"></div>
-                        <span className='street'><p>123 Anywhere St., Any City 12345</p></span>
-                    </div>
+                    <ul className="cs_contact_widget">
+                      <li>
+                        <i className="cs_accent_bg">
+                          <img
+                            src="https://prohealth-wp.laralink.com/wp-content/themes/prohealth/assets/img/footer_icon/footer3-location.png"
+                            alt="footer-location-icon"
+                          />
+                        </i>
+                        123 Anywhere St., Any City 12345
+                      </li>
 
-                    <div className="location1">
-                        <div className="footer-circle1"></div>
-                        <span className='street'><p>123-456-7890</p></span>
-                    </div>
+                      <li>
+                        <i className="cs_accent_bg">
+                          <img
+                            src="https://prohealth-wp.laralink.com/wp-content/themes/prohealth/assets/img/footer_icon/footer3-phone.png"
+                            alt="footer-phone-icon"
+                          />
+                        </i>
+                        123-456-7890
+                      </li>
 
-                    <div className="location1">
-                        <div className="footer-circle1"></div>
-                        <span className='street'><p>hellocallcenter@gmail.com</p></span>
-                    </div>
+                      <li>
+                        <i className="cs_accent_bg">
+                          <img
+                            src="https://prohealth-wp.laralink.com/wp-content/themes/prohealth/assets/img/footer_icon/footer3-email.png"
+                            alt="footer-email-icon"
+                          />
+                        </i>
+                        hellocallcenter@gmail.com
+                      </li>
+                    </ul>
                 </div>
                 <div className='footer2'>
+                    <span><p>Home</p></span>
                     <span><p>About us</p></span>
-                    <span><p>Departments</p></span>
+                    <span><p>Department</p></span>
                     <span><p>Doctors</p></span>
-                    <span><p>Timetable</p></span>
                     <span><p>Appointments</p></span>
                 </div>
                 <div className='footer3'>
-                <span><p>Testimonials</p></span>
-                    <span><p>Blog</p></span>
-                    <span><p>Contact Us</p></span>
-                    <span><p>FAQ</p></span>
+                <span><p>Contact</p></span>
+                    <span><p>Gallery</p></span>
+                    <span><p>FAQs Us</p></span>
+                    <span><p>Privacy Policy</p></span>
+                    <span><p>Terms and Conditions</p></span>
                 </div>
                 <div className='footer4'>
                     <div className="privacy">
@@ -123,11 +143,11 @@ function Footer() {
                     <div className="privacy">
                     <span><p>Follow Us</p></span>
                     <div className="icon-box">
-                    <span><i className="bi bi-facebook"></i></span>
-                    <span><i className="bi bi-youtube"></i></span>
-                    <span><i className="bi bi-linkedin"></i></span>
-                    <span><i className="bi bi-twitter"></i></span>
-                    <span><i className="bi bi-instagram"></i></span>
+                    <span><FaFacebookF /></span>
+                    <span><FaYoutube /></span>
+                    <span><FaLinkedinIn /></span>
+                    <span><FaTwitter /></span>
+                    <span><FaInstagram /></span>
                     </div>
                     </div>
                 </div>
