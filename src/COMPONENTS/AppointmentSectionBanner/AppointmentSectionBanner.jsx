@@ -42,7 +42,7 @@ const AppointmentSection = () => {
             >
               <div className="screen-reader-response">
                 <p role="status" aria-live="polite" aria-atomic="true" className='stausp'></p>
-                <ul></ul>
+                <ul className='ul'></ul>
               </div>
               <form
                 action="/water-effect-version/#wpcf7-f8-p779-o1"

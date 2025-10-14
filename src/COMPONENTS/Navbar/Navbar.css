@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-
 
 header{
     width: 100%;
@@ -40,7 +38,7 @@ header{
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 .a1{

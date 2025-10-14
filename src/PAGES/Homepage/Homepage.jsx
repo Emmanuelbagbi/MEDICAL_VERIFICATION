@@ -10,6 +10,7 @@ import HealthBannerSection from '../../COMPONENTS/HealthBannerSection/HealthBann
 import BlogSectionEx from '../../COMPONENTS/BlogSectionEx/BlogSectionEx';
 import AppointmentSectionBanner from '../../COMPONENTS/AppointmentSectionBanner/AppointmentSectionBanner';
 import StartBrandSection from '../../COMPONENTS/StartBrandSection/StartBrandSection';
+import FindDoctors from '../../COMPONENTS/FindDoctors/FindDoctors';
 
 
 
@@ -208,6 +209,10 @@ function Homepage() {
                 </div>
             </div>
         </div>
+    </section>
+
+    <section style={{display:"flex",alignItems:"center",justifyContent:"center",padding:"20px"}}>
+        <FindDoctors></FindDoctors>
     </section>
 
     <section>
