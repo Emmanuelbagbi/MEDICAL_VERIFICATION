@@ -10,8 +10,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-position: 50% 50%;
-    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+
     line-height:25.6px;
     max-height:1080px;
     -webkit-box-align:center;
@@ -22,8 +22,7 @@
 }
 .advert{
     width: 95%;
-    height: 223px;
-    /* border: 1px solid black; */
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -52,7 +51,7 @@
 .title{
     width: 65%;
     height: 180px;
-    font-size: 37px;
+    font-size: 35px;
     display: block;
     color: white;
     padding-left: 65px;
@@ -188,6 +187,7 @@
     justify-content: center;
     gap: 5%;
     background-color: #fff;
+    padding-bottom:30px;
 }
 .our-Department{
     width: 90%;
@@ -223,7 +223,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 25px;/* or whatever vertical space you want */
+  gap: 25px;
 }
 
 .content-card {

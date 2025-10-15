@@ -8,7 +8,7 @@ const BlogSection = () => {
   return (
     <div className="rowwe cs_row_gap_50">
       {/* Post 1 */}
-      <div className="col-xl-4 col-md-6">
+      <div className="col-xl-434 col-md-w">
         <div className="cs_post cs_style_1">
           <a
             href="#"
@@ -75,7 +75,7 @@ const BlogSection = () => {
       </div>
 
       {/* Post 2 */}
-      <div className="col-xl-4 col-md-6">
+      <div className="col-xl-434 col-md-w">
         <div className="cs_post cs_style_1">
           <a
             href="#"
@@ -140,7 +140,7 @@ const BlogSection = () => {
       </div>
 
       {/* Post 3 */}
-      <div className="col-xl-4 col-md-6">
+      <div className="col-xl-434 col-md-w">
         <div className="cs_post cs_style_1">
           <a
             href="#"

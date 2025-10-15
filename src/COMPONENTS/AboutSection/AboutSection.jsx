@@ -2,7 +2,7 @@ import './AboutSection.css'
 
 const AboutSection = () => {
   return (
-    <section className="cs_about cs_style_2 cs_shape_wrap">
+    <section className="cs_about cs_style_2d cs_shape_wrap">
       <div className="cs_shape_3">
         <svg
           width="738"
