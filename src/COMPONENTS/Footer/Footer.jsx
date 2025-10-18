@@ -90,7 +90,7 @@ function Footer() {
                     </div>
                     <ul className="cs_contact_widget">
                       <li>
-                        <i className="cs_accent_bg">
+                        <i className="cs_accent_bg23">
                           <img
                             src="https://prohealth-wp.laralink.com/wp-content/themes/prohealth/assets/img/footer_icon/footer3-location.png"
                             alt="footer-location-icon"
@@ -100,7 +100,7 @@ function Footer() {
                       </li>
 
                       <li>
-                        <i className="cs_accent_bg">
+                        <i className="cs_accent_bg23">
                           <img
                             src="https://prohealth-wp.laralink.com/wp-content/themes/prohealth/assets/img/footer_icon/footer3-phone.png"
                             alt="footer-phone-icon"
@@ -110,7 +110,7 @@ function Footer() {
                       </li>
 
                       <li>
-                        <i className="cs_accent_bg">
+                        <i className="cs_accent_bg23">
                           <img
                             src="https://prohealth-wp.laralink.com/wp-content/themes/prohealth/assets/img/footer_icon/footer3-email.png"
                             alt="footer-email-icon"

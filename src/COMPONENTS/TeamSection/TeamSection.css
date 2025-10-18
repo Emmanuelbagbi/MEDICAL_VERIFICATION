@@ -1,0 +1,64 @@
+
+.cs_height_xl_14566 {
+        height: 145px;
+}
+.text-center {
+    text-align: center !important;
+}
+.cs_accent_color {
+    color: #307bc4;
+}
+
+.cs_fs_32gh{
+    font-size: 26px;
+    line-height: 34.06px;
+    font-family: Figtree, sans-serif;
+    color: rgb(48, 123, 196);
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.cs_semibold {
+    font-weight: 600;
+}
+.cs_height_5 {
+    height: 5px;
+}
+
+.cs_fs_720z{
+    font-size: 56px;
+    line-height: 1.14em;
+    clear: both;
+    color: #274760;
+    font-family: "Figtree", sans-serif;
+}
+.cs_height_70 {
+    height: 70px;
+}
+
+.cs_gap_y_30 {
+    gap: 30px 0;
+}
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    border: 1;
+}
+.cs_team.cs_style_1 {
+    border-radius: 20px;
+    background: linear-gradient(154deg, rgba(210, 234, 239, 0.27) 0%, rgba(134, 187, 241, 0.27) 100%);
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+a {
+    text-decoration: none;
+}
+.cs_team.cs_style_1 .cs_team_meta {
+        padding: 32px 20px;
+}
+.doctors-sec1{
+    margin-top: 200px;
+}
