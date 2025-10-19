@@ -11,6 +11,7 @@ import BlogSectionEx from '../../COMPONENTS/BlogSectionEx/BlogSectionEx';
 import AppointmentSectionBanner from '../../COMPONENTS/AppointmentSectionBanner/AppointmentSectionBanner';
 import StartBrandSection from '../../COMPONENTS/StartBrandSection/StartBrandSection';
 import FindDoctors from '../../COMPONENTS/FindDoctors/FindDoctors';
+import Footer from '../../COMPONENTS/Footer/Footer'
 
 
 
@@ -296,6 +297,7 @@ function Homepage() {
     <section>
         <StartBrandSection></StartBrandSection>
     </section>
+    <Footer></Footer>
     </>
   )
   

@@ -1,4 +1,4 @@
-import Footer from "./COMPONENTS/Footer/Footer";
+
 import Homepage from "./PAGES/Homepage/Homepage";
 // import ScrollTop from "./COMPONENTS/ScrollTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -34,7 +34,6 @@ function App() {
           <Route path="/dashboard" index element={<ToogleMode />} />
           <Route path="/Admin" index element={<Admin />} />
         </Routes>
-        <Footer />
       </Router>
       {/* <ManufacturerDashboard/> */}
     </>
