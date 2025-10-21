@@ -114,6 +114,9 @@
   margin: 0;
 }
 
+
+
+
 .cs_social_links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,8 +292,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 .cs_contact_widget li:not(:last-child) {
   margin-bottom: 13px;
@@ -521,6 +524,10 @@ ease;
     background: transparent;
 }
 
+    .cs_banner.cs_style_4 {
+        padding: 140px 130px 340px;
+    }
+
 .cs_btn.cs_style_1::before {
     background-image: linear-gradient(134deg, #307bc4 0%, #274760 100%);
 }
@@ -552,3 +559,4 @@ ease-in-out;
 .Mainfooter-container{
     width: 100%;
 }
+

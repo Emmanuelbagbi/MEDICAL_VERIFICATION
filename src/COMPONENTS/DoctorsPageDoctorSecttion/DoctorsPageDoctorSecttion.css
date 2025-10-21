@@ -1,0 +1,156 @@
+
+
+.DoctorsPage-container{
+    width:1140px;
+    padding-left:12px;
+    padding-right:12px;
+    margin-left:30px;
+    margin-right:30px;
+    max-width:1140px;
+}
+
+.cs_doctors_heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.cs_isotop_filter.cs_style1 {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cs_isotop_filter.cs_style1 {
+    gap: 20px 30px;
+}
+
+.mb-067{
+    color:rgba(39, 71, 96, 0.52);
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:25.6px;
+}
+
+    .cs_isotop_filter.cs_style1 ul {
+        gap: 20px;
+    }
+
+.cs_isotop_filter.cs_style1 ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cs_mp0 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Your existing active style (unchanged) */
+.cs_isotop_filter.cs_style1 ul .active5 button {
+  color: #fff;
+  background-color: #307bc4;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cs_isotop_filter.cs_style1 ul a,
+.cs_isotop_filter.cs_style1 ul button {
+  border: 1px solid #307bc4;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  color: #274760;
+  padding: 11px 26px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent;
+}
+
+.cs_view_box {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cs_view_box span{
+    color:rgba(39, 71, 96, 0.52);
+    column-gap:30px;
+    display:flex;
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    font-weight:400;
+    align-items:center;
+}
+
+.cs_view_box_in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 15px;
+}
+
+.cs_view_box_in button.active6 {
+    opacity: 1;
+    color: #307bc4;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.cs_view_box_in button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    -webkit-transition: all 0.3s 
+ease;
+    transition: all 0.3s 
+ease;
+    opacity: 0.5;
+}
+
+.cs_height_65 {
+    height: 65px;
+}
+
+.cs_isotop.cs_has_gutter_24 {
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: -24px;
+}
+
+
+
+.pushsection{
+    width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.stratcard{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
