@@ -171,23 +171,16 @@ color:rgb(255, 255, 255);
    height: 20px;
     width: 20px;
     -webkit-box-flex: 0;
-    -ms-flex: none;
     flex: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.5);
     color: #307bc4;
     font-size: 12px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-      -webkit-transition: all 0.4s 
-ease-in-out;
     transition: all 0.4s 
 ease-in-out;
 cursor: pointer;

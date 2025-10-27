@@ -1,0 +1,244 @@
+
+.Ourvalue-container{
+    margin-left:50px;
+    margin-right:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.position-relative {
+    position: relative !important;
+}
+
+.value-row{
+    width: 100%;
+    margin-left:-12px;
+    margin-right:-12px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 7%;
+
+}
+
+    .col-lg-44vnv {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+.cs_fs_72value{
+    font-size: 56px;
+    line-height: 1.14em;
+    font-family:Figtree, sans-serif;
+    color:rgb(39, 71, 96);
+    line-height:63.84px;
+}
+
+    .cs_height_xl_150454 {
+        height: 150px;
+    }
+.cs_slider_navigation.cs_style_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 5;
+}
+.cs_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cs_slider_navigation.cs_style_2 .cs_slider_prev, .cs_slider_navigation.cs_style_2 .cs_slider_next {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #307bc4;
+    border-radius: 50%;
+    padding: 8px;
+    -webkit-transition: all 0.4s 
+ease;
+    transition: all 0.4s 
+ease;
+    cursor: pointer;
+}
+
+.slick-arrow img{
+    vertical-align:middle;
+    width:20px;
+    height:13.7083px;
+}
+
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+.cs_iconbox_carousel_1 .cs_slider_activate {
+    width: 64vw;
+    padding-left: 55px;
+    padding-right: 25px;
+}
+
+.cs_iconbox_carousel_1 .cs_slider_activate::before {
+    content: "";
+    position: absolute;
+    height: 60%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    background: linear-gradient(154deg, #d2eaef 0%, #86bbf1 100%);
+}
+
+.cs_gap_20 .slick-list {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.cs_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.slick-slide img {
+    display: block;
+}
+
+.cs_iconbox_iconty{
+    vertical-align:middle;
+    width:65px;
+    height:65px;
+}
+.cs_iconbox.cs_style_10 .cs_iconbox_title {
+    margin-bottom: 20px;
+}
+
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+} 
+
+.cs_iconbox.cs_style_10 {
+    padding: 55px 50px;
+    -webkit-box-shadow: 0px 4px 21px 1px rgba(48, 123, 196, 0.1);
+    box-shadow: 0px 4px 21px 1px rgba(48, 123, 196, 0.1);
+    -webkit-transition: all 0.4s 
+ease;
+    transition: all 0.4s 
+ease;
+    max-width: 370px;
+}
+.cs_iconbox.cs_style_10 .cs_iconbox_iconty {
+    height: 111px;
+    width: 111px;
+    padding: 10px;
+    border: 1px solid #307bc4;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-initialized .slick-slide > div {
+    display: flex;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.cs_gap_20 .slick-slide {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cs_radius_20 {
+    border-radius: 20px;
+}
+
+
+.cs_iconbox_iconty img{
+    width:65px;
+    height:65px;
+    vertical-align:middle;
+}
+
+
+
+.cs_iconbox_carousel_1 .cs_slider_activate {
+    width: 64vw;
+    padding-left: 55px;
+    padding-right: 25px;
+}
+
+
+.cs_iconbox.cs_style_10 .cs_iconbox_title {
+    margin-bottom: 20px;
+    font-family:Figtree, sans-serif;
+    font-size:32px;
+    font-weight:700;
+    color:rgb(39, 71, 96);
+}
+.cs_iconbox.cs_style_10:hover {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  -webkit-box-shadow: 6px 4px 70px 8px rgba(48, 123, 196, 0.09);
+          box-shadow: 6px 4px 70px 8px rgba(48, 123, 196, 0.09);
+}
+
+
+
+
+
+/* 
+
+.cs_iconbox_carousel_1 .slick-list {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    margin-bottom: -40px;
+    overflow: initial;
+}
+
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+
+
+*/

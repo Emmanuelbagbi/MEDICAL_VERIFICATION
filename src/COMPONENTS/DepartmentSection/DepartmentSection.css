@@ -1,0 +1,106 @@
+
+    .cs_height_xl_150 {
+        height: 150px;
+    }
+.DepartmentSection-container{
+    width:1140px;
+    padding-left:12px;
+    padding-right:12px;
+    margin-left:50px;
+    margin-right:50px;
+    max-width:1140px;
+}
+
+    .flex-xl-row {
+        flex-direction: row !important;
+    }
+.align-items-center {
+    align-items: center !important;
+}
+
+
+.col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.cs_iconbox.cs_style_9 {
+    min-height: 250px;
+    padding: 25px 15px;
+}
+
+.cs_iconbox.cs_style_9 {
+    background: linear-gradient(154deg, #d2eaef 0%, #86bbf1 100%);
+    padding: 40px 25px;
+    -webkit-transition: all 0.4s 
+ease;
+    transition: all 0.4s 
+ease;
+    margin-bottom: 24px;
+    min-height: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cs_iconbox.cs_style_9 .cs_iconbox_title {
+    margin-top: 20px;
+}
+.cs_fs_20 {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.DepartmentSection-row{
+    margin-left:-12px;
+    margin-right:-12px;
+    display:flex;
+    flex-wrap:wrap;
+    font-family:Poppins, sans-serif;
+    font-size:16px;
+    font-weight:400;
+}
+.col-xl-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+.text-end {
+    text-align: right !important;
+}
+.cs_semibold {
+    font-weight: 600;
+}
+
+.cs_fs_32vb{
+    font-family:Figtree, sans-serif;
+    font-size:26px;
+}
+
+.cs_height_5 {
+    height: 5px;
+}
+
+    .cs_fs_72qw {
+        font-size: 56px;
+        font-family:Figtree, sans-serif;
+        color:rgb(39, 71, 96);
+    }
+.cs_iconbox.cs_style_9:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}

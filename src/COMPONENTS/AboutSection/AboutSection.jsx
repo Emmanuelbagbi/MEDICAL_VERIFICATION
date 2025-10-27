@@ -32,7 +32,7 @@ const AboutSection = () => {
         </svg>
       </div>
 
-      <div className="cs_height_190 cs_height_xl_150 cs_height_lg_105"></div>
+      <div className="cs_height_19yt0"></div>
 
       <div className="container33">
         <div className="row align-items-end cs_gap_y_50">
@@ -57,7 +57,7 @@ const AboutSection = () => {
 
           {/* Right Column */}
           <div className="col-xl-6">
-            <div className="cs_about_img">
+            <div className="cs_about_img454">
               <img
                 decoding="async"
                 src="https://prohealth-wp.laralink.com/wp-content/uploads/2023/10/about.jpeg"
@@ -69,7 +69,7 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="cs_height_190 cs_height_xl_145 cs_height_lg_105"></div>
+      <div style={{ height:"200px"}}></div>
     </section>
   );
 };

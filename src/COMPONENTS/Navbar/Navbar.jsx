@@ -15,7 +15,7 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  // ✅ scroll behavior
+  
   useEffect(() => {
     let lastScrollY = window.scrollY;
     let ticking = false;
@@ -26,9 +26,9 @@ function Navbar() {
       if (!ticking) {
         window.requestAnimationFrame(() => {
           if (currentScrollY > lastScrollY && currentScrollY > 100) {
-            setIsVisible(false); // hide navbar on scroll down
+            setIsVisible(false); 
           } else {
-            setIsVisible(true); // show navbar on scroll up
+            setIsVisible(true); 
           }
 
           setIsSticky(currentScrollY > 100);
@@ -44,13 +44,12 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // ✅ detect pages
   const isHomePage = location.pathname === "/";
-  const isAboutPage = location.pathname === "/MainAbout";
+  const isAboutPage = location.pathname === "/About";
   const isFindDoctorsPage = location.pathname === "/FindDoctorsPage";
+    const isContactPage = location.pathname === "/Contact";
 
-  // ✅ white navbar for About and FindDoctors pages
-  const isWhiteNavbarPage = isAboutPage || isFindDoctorsPage;
+    const isWhiteNavbarPage = isAboutPage || isFindDoctorsPage || isContactPage;
 
   const logoColor = isHomePage ? 'white' : '#274760';
   const linkColorClass = isHomePage ? 'nav-white' : 'nav-blue';
@@ -75,7 +74,7 @@ function Navbar() {
               <Link to="/" className={`a1 ${linkColorClass}`}>Home</Link>
             </li>
             <li className="li1">
-              <Link to="/MainAbout" className={`a1 ${linkColorClass}`}>About</Link>
+              <Link to="/About" className={`a1 ${linkColorClass}`}>About</Link>
             </li>
             <li className="li1">
               <Link to="/FindDoctorsPage" className={`a1 ${linkColorClass}`}>Find Doctors</Link>
@@ -84,7 +83,7 @@ function Navbar() {
               <Link to="/Contact" className={`a1 ${linkColorClass}`}>Contact</Link>
             </li>
             <li className="li1">
-              <Link to="/About" className={`a1 ${linkColorClass}`}>Site Map</Link>
+              <Link to="/Contact" className={`a1 ${linkColorClass}`}>Site Map</Link>
             </li>
           </ul>
         </nav>
